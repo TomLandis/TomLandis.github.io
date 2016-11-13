@@ -1,3 +1,6 @@
+
+$(document).redy(function(){
+
 function convertKelvinToCelsius(kelvin) {
   if (kelvin < (0)) {
     return 'below absolute zero (0 K)';
@@ -92,4 +95,5 @@ $.getJSON("http://ip-api.com/json", function(data) {
     
    }); 
   });
+});
 });
