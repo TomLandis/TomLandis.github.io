@@ -20,7 +20,7 @@ $.getJSON("http://ip-api.com/json", function(data) {
   countryCode = data.countryCode;
 
   
-  $.getJSON(" http://api.openweathermap.org/data/2.5/weather?zip=" + zip + "," + countryCode + "&appid=66b18b2ee6cb8577e268c98efdecf6e5", function(data) {
+  $.getJSON(" https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?zip=" + zip + "," + countryCode + "&appid=66b18b2ee6cb8577e268c98efdecf6e5", function(data) {
     temp = convertKelvinToCelsius(data.main.temp);
     temp = Math.round(temp);
     description = data.weather[0].description;
