@@ -9,7 +9,7 @@ function convertKelvinToCelsius(kelvin) {
 
 var city, country, lat, lon, zip, countryCode, temp, description, weatherCode;
 
-$.getJSON("https://http://freegeoip.net/json/", function(data) {
+$.getJSON("https://freegeoip.net/json/", function(data) {
   city = data.city;
   country = data.country_name;
   lat = data.latitude;
