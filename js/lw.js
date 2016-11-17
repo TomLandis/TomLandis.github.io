@@ -9,13 +9,13 @@ function convertKelvinToCelsius(kelvin) {
 
 var city, country, lat, lon, zip, countryCode, temp, description, weatherCode;
 
-$.getJSON("https://crossorigin.me/http://ip-api.com/json", function(data) {
+$.getJSON("https://http://freegeoip.net/json/", function(data) {
   city = data.city;
-  country = data.country;
-  lat = data.lat;
-  lon = data.lon;
-  zip = data.zip;
-  countryCode = data.countryCode;
+  country = data.country_name;
+  lat = data.latitude;
+  lon = data.longitude;
+  zip = data.zip_code;
+  countryCode = data.country_code;
 
   
   $.getJSON(" https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?zip=" + zip + "," + countryCode + "&appid=66b18b2ee6cb8577e268c98efdecf6e5", function(data) {
