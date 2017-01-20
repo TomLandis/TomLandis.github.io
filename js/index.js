@@ -15,3 +15,8 @@ $("#wv").click()
 $( "#wv" ).click(function() {
   window.open("wv.html");
 });
+$("#calc").click()
+
+$( "#calc" ).click(function() {
+  window.open("calc.html");
+});
