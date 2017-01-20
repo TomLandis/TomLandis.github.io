@@ -20,3 +20,9 @@ $("#calc").click()
 $( "#calc" ).click(function() {
   window.open("calc.html");
 });
+
+$("#twitch").click()
+
+$( "#twitch" ).click(function() {
+  window.open("twitch.html");
+});
