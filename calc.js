@@ -245,37 +245,189 @@ console.log("here");
    $('#plus').on('click', function(event) {
      var hold = $('#me').text();
      hold = parseFloat(hold);
-     pre = hold;
+    
+     
+     //test
+     
+     if (op === "+") {
+
+       answer = pre + hold;
+      // $('h3').html(answer);
+       op = "+";
+       pre= answer;
+        $('h3').html("+");
+       
+     } else if (op === "-") {
+
+        answer = pre - hold;
+      // $('h3').html(answer);
+       op = "+";
+       pre= answer;
+        $('h3').html("+");
+       
+     } else if (op === "x") {
+
+        answer = pre * hold;
+      // $('h3').html(answer);
+       op = "+";
+       pre= answer;
+        $('h3').html("+");
+     } else if (op === "÷") {
+
+         answer = pre / hold;
+      // $('h3').html(answer);
+       op = "+";
+       pre= answer;
+        $('h3').html("+");
+     } else {
+     
+      pre = hold;
+     
      op = "+";
      $('h3').html("+");
+     }
 
    });
+   
    $('#minus').on('click', function(event) {
-     var hold = $('#me').text();
+      var hold = $('#me').text();
      hold = parseFloat(hold);
-     pre = hold;
-     op = "-";
+    
+     
+     //test
+     
+     if (op === "+") {
 
+       answer = pre + hold;
+      // $('h3').html(answer);
+       op = "-";
+       pre= answer;
+        $('h3').html("-");
+       
+     } else if (op === "-") {
+
+        answer = pre - hold;
+      // $('h3').html(answer);
+       op = "-";
+       pre= answer;
+        $('h3').html("-");
+       
+     } else if (op === "x") {
+
+        answer = pre * hold;
+      // $('h3').html(answer);
+       op = "-";
+       pre= answer;
+        $('h3').html("-");
+     } else if (op === "÷") {
+
+         answer = pre / hold;
+      // $('h3').html(answer);
+       op = "-";
+       pre= answer;
+        $('h3').html("-");
+     } else {
+     
+      pre = hold;
+     
+     op = "-";
      $('h3').html("-");
+     }
 
    });
    
       $('#divide').on('click', function(event) {
-     var hold = $('#me').text();
+        var hold = $('#me').text();
      hold = parseFloat(hold);
-     pre = hold;
-     op = "÷";
+    
+     
+     //test
+     
+     if (op === "+") {
 
+       answer = pre + hold;
+      // $('h3').html(answer);
+       op = "÷";
+       pre= answer;
+        $('h3').html("÷");
+       
+     } else if (op === "-") {
+
+        answer = pre - hold;
+      // $('h3').html(answer);
+       op = "÷";
+       pre= answer;
+        $('h3').html("÷");
+       
+     } else if (op === "x") {
+
+        answer = pre * hold;
+      // $('h3').html(answer);
+       op = "÷";
+       pre= answer;
+        $('h3').html("÷");
+     } else if (op === "÷") {
+
+         answer = pre / hold;
+      // $('h3').html(answer);
+       op = "÷";
+       pre= answer;
+        $('h3').html("÷");
+     } else {
+     
+      pre = hold;
+     
+     op = "÷";
      $('h3').html("÷");
+     }
 
    });
+   
+   
    $('#times').on('click', function(event) {
      var hold = $('#me').text();
      hold = parseFloat(hold);
-     pre = hold;
-     op = "x";
+    
+     
+     //test
+     
+     if (op === "+") {
 
+       answer = pre + hold;
+      // $('h3').html(answer);
+       op = "x";
+       pre= answer;
+        $('h3').html("x");
+       
+     } else if (op === "-") {
+
+        answer = pre - hold;
+      // $('h3').html(answer);
+       op = "x";
+       pre= answer;
+        $('h3').html("x");
+       
+     } else if (op === "x") {
+
+        answer = pre * hold;
+      // $('h3').html(answer);
+       op = "x";
+       pre= answer;
+        $('h3').html("x");
+     } else if (op === "÷") {
+
+         answer = pre / hold;
+      // $('h3').html(answer);
+       op = "x";
+       pre= answer;
+        $('h3').html("x");
+     } else {
+     
+      pre = hold;
+     
+     op = "x";
      $('h3').html("x");
+     }
 
    });
    
