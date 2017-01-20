@@ -1,0 +1,58 @@
+body {
+  background-color: #874ec9;
+}
+#buttons {
+  margin: auto;
+  float: center;
+  text-align: center;
+  
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+#liveNotice {
+  text-align: right;
+  float: right;
+}
+#channels {
+  background-color: gray;
+ 
+  padding: 3px;
+  max-width: 490px;
+  margin: auto;
+}
+
+#sorted {
+  margin: auto;
+  background-color: white;
+  max-width: 480px;
+  
+  
+  
+  
+}
+.offline {
+ border: 6px solid red;
+   opacity: .9;
+}
+
+.online {
+  
+  border: 6px solid blue;
+}
+
+.thumb {
+  max-width: 75px;
+  border-radius:50%;
+  float: left;
+   padding-bottom: 5px;
+  
+}
+.container-fluid {
+  overflow: auto;
+}
+smallish {
+  max-width: 50%;
+}
