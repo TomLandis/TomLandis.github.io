@@ -37,7 +37,7 @@
 //console.log(zilch);
      if (zilch == "0" && !zilch.includes(".")) {
        $("#me").html("7");
-     } else if (op === "x" ||op === "+" ||op=== "-" ||op=== "÷" ) {
+     } else if (zilch === "x" ||zilch === "+" ||zilch=== "-" ||zilch=== "÷" ) {
        console.log("there");
         $("#me").html("7");
      } else {
@@ -59,7 +59,7 @@ console.log("here");
      if (zilch == "0" && !zilch.includes(".")) {
        $("#me").html("8");
      }
-     else if (op === "x" ||op === "+" ||op=== "-" ||op=== "÷" ) {
+     else if (zilch === "x" ||zilch === "+" ||zilch=== "-" ||zilch=== "÷" ) {
         $("#me").html("8");
      }
      else {
