@@ -191,7 +191,7 @@ console.log("here");
 
      var zilch = $("#me").html();
 
-     if (zilch === 0 || "0" && !zilch.includes(".")) {
+     if (zilch == "0" && !zilch.includes(".")) {
        $("#me").html("3");
      } else if (zilch === "x" ||zilch === "+" ||zilch === "-" ||zilch === "÷" ) {
         $("#me").html("3");
