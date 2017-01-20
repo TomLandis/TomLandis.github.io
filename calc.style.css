@@ -1,0 +1,57 @@
+body {
+  background-color:  brown;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: right;
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 5px solid #000000;
+  max-width: 146px;
+  background: rgba(243, 245, 246, 1);
+  background: -moz-linear-gradient(left, rgba(243, 245, 246, 1) 0%, rgba(221, 225, 227, 1) 11%, rgba(188, 195, 199, 1) 52%, rgba(232, 238, 242, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243, 245, 246, 1)), color-stop(11%, rgba(221, 225, 227, 1)), color-stop(52%, rgba(188, 195, 199, 1)), color-stop(100%, rgba(232, 238, 242, 1)));
+  background: -webkit-linear-gradient(left, rgba(243, 245, 246, 1) 0%, rgba(221, 225, 227, 1) 11%, rgba(188, 195, 199, 1) 52%, rgba(232, 238, 242, 1) 100%);
+  background: -o-linear-gradient(left, rgba(243, 245, 246, 1) 0%, rgba(221, 225, 227, 1) 11%, rgba(188, 195, 199, 1) 52%, rgba(232, 238, 242, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(243, 245, 246, 1) 0%, rgba(221, 225, 227, 1) 11%, rgba(188, 195, 199, 1) 52%, rgba(232, 238, 242, 1) 100%);
+  background: linear-gradient(to right, rgba(243, 245, 246, 1) 0%, rgba(221, 225, 227, 1) 11%, rgba(188, 195, 199, 1) 52%, rgba(232, 238, 242, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3f5f6', endColorstr='#e8eef2', GradientType=1);
+}
+
+#equals {
+  height: 69px;
+  margin-bottom: -35px;
+}
+
+#zero {
+  width: 73px;
+  margin: no wrap;
+}
+
+.basic {
+  width: 34px;
+}
+
+#keypad {
+  background-color: #949998;
+  border: 5px solid #000000;
+  width: auto;
+  padding-bottom: 10px;
+  margin-right: auto;
+  position: absolute;
+}
+
+.middle{
+      margin: auto;
+    width: 80%;
+  padding-top: 50px;
+  float: right;
+    
+
+}
