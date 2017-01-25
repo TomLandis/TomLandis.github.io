@@ -26,3 +26,7 @@ $("#twitch").click()
 $( "#twitch" ).click(function() {
   window.open("twitch.html");
 });
+$( "#timer" ).click(function() {
+  window.open("timer.html");
+});
+
