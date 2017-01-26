@@ -9,7 +9,7 @@ https://clyp.it/0gqvemjg
 */
 $(document).ready(function() {
   var hold, temp, timer, mins, secs;
- var audio = new Audio('alarm.mp3');
+ var audio = new Audio('Alarm.mp3');
 
 
   function breakDown() {
