@@ -50,6 +50,12 @@ h1 {
    padding-bottom: 5px;
   
 }
+.center {
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .container-fluid {
   overflow: auto;
 }
