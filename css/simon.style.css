@@ -1,0 +1,76 @@
+.handsOff{
+  pointer-events:none;
+}
+
+.container {
+  width: 500px;
+}
+
+button {
+  padding: 100px;
+  margin: 10px;
+}
+
+#green {
+  background-color: #0a5b00;
+  border-radius: 200px 10px 10px 10px;
+  -moz-border-radius: 200px 10px 10px 10px;
+  -webkit-border-radius: 200px 10px 10px 10px;
+  border: 6px solid #000000;
+ 
+}
+
+
+
+#grey {
+  background-color: #565656;
+  border-radius: 10px 200px 10px 10px;
+  -moz-border-radius: 10px 200px 10px 10px;
+  -webkit-border-radius: 10px 200px 10px 10px;
+  border: 6px solid #000000;
+}
+
+#brown {
+  background-color: #5e2200;
+  border-radius: 10px 10px 10px 200px;
+  -moz-border-radius: 10px 10px 10px 200px;
+  -webkit-border-radius: 10px 10px 10px 200px;
+  border: 6px solid #000000;
+}
+
+#blue {
+  background-color: #0389a0;
+  border-radius: 10px 10px 200px 10px;
+  -moz-border-radius: 10px 10px 200px 10px;
+  -webkit-border-radius: 10px 10px 200px 10px;
+  border: 6px solid #000000;
+}
+
+#green:hover{
+  border: 6px solid yellow;
+}
+#grey:hover{
+  border: 6px solid yellow;
+}
+#brown:hover{
+  border: 6px solid yellow;
+}
+#blue:hover{
+  border: 6px solid yellow;
+}
+#onOff {
+  border: solid black 3px;
+  background-color: #f8ffad;
+  
+}
+
+#off {
+  color:red;
+}
+#winner{
+  display: none;
+}
+
+#strict {
+  color : black;
+}

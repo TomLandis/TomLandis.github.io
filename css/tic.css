@@ -1,0 +1,99 @@
+img {
+  margin: auto;
+}
+.box {
+   font-size: 50px;
+    width: 50%;
+   text-align: center;
+}
+
+
+p {
+  
+   font-size: 30px;
+   
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  height: 29%; 
+  flex-flow: row wrap;
+  max-width: 500px;
+}
+
+.child {
+ border-style: solid;
+    border-width: 5px;
+  border-radius: 15px;
+  width: 29%;  
+  height: 80px; 
+  margin: auto;  
+  background-color: #96cebb;
+}
+.x {
+  color:blue;
+  border-style: solid;
+    border-width: 5px;
+  border-radius: 15px;
+}
+.o {
+  color:green;
+  border-style: solid;
+    border-width: 5px;
+  border-radius: 15px;
+}
+#choose {
+  margin: auto;
+  display: flex;
+ 
+  
+}
+#loser {
+  display: none;
+  margin: auto;
+  max-width: 500px;
+}
+#reset {
+   border-style: solid;
+    border-width: 5px;
+  border-radius: 15px;
+  width: 50%;  /* Or whatever */
+  height: 80px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  background-color: aqua;
+}
+.container {
+  width: 380px;
+  margin: 0 auto;
+  
+}
+#compy {
+display: none;
+background: #beeada;
+  text-align: center;
+}
+#playa {
+display: none;
+background: #beeada;
+  text-align: center;
+}
+
+#draw {
+ display:none;
+}
+.content {
+        width: 300px;
+        height: 600px;
+        padding-top:150px;
+
+        position:absolute; /*it can be fixed too*/
+        left:0; right:0;
+        top:0; bottom:0;
+        margin:auto;
+
+        /*this to solve "the content will not be cut when the window is smaller than the content": */
+        max-width:100%;
+        max-height:100%;
+        overflow:auto;
+    }
