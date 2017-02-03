@@ -2,15 +2,15 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Tom is learning web development</title>
+  <title>WebDev Projects by Tom Landis</title>
   
 
  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
 
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="portfolio.style.css">
 
      
 
@@ -18,23 +18,37 @@
 </head>
 
 <body>
-  
-<div class="center">
+  <h1>Tom </h1>
+     
 
-<h1>Tom's projects from Free Code Camp</h1>
+<div class="center parallax">
+    <div id="simon">
+    <img src="simon.png" ><p id="pomoD"> My most recent project.  A simple in browser game using jQuery and bootstrap.</p>
+    </div>
+    <div id="ttt">
+    <img src="ttt.png" class="img-responsive img-thumbnail left"> <p id="pomoD"> An unbeatable game of Tic-Tac-Toe.  I built it using jQuery.</p>
+    
+    </div>
+    <div id="calc">
+        <img  class="img-responsive img-thumbnail right"  src="calc.png"> <p id="calcD">I made this stylish calculator for free code camp's front-end developer certificate.  It uses jQuery and bootstrap and features simple yet elegant style</p>
+     </div>
+    <div><img class="img-responsive img-thumbnail left"  src="pomo.png"><p id="pomoD">This pomodoro productivity timer features simple easy to use design.  It was another advaced front end development project.</p>
+ </div> 
 
-<button class="btn btn-primary" id="lw">Local Weather</button>
-<button  class="btn btn-primary" id="rqg">Random quote Generator</button>
-  <button class="btn btn-primary" id="wv">Wikipedia Viewer</button>
-   <button class="btn btn-primary" id="twitch">Twitch.tv</button>
-   <button class="btn btn-primary" id="calc">JavaScript Calculator</button>
-  <button class="btn btn-primary" id="timer">Pomodoro Timer</button>
+    </div>  <div id="twitch" class ="parallax1">
+    <img src="twitchy.png" class="img-responsive img-thumbnail right" id= "twitchy"> 
+      <p id="twitchD">A web app that uses an API call to gather current information on streaming programs on twitch.tv.</p> 
+  <div  id="wv"> <img src="wiki.png" > <p id="wikiD"> This wikipedia viewer App makes use of Wikipedia's API to fetch relevant search results.</p> </div> 
+   
+    
+
 </div>
 
     
   
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-  <script src="js/index.js"></script>
+  <script src="portfolio.js"></script>
+    
 </body>
 </html>
