@@ -4,18 +4,12 @@
 
    function getNewQuote() {
      $.ajax({
-       url: 'https://crossorigin.me/http://api.forismatic.com/api/1.0/',
-       jsonp: 'jsonp',
-       dataType: 'jsonp',
-       data: {
-         method: 'getQuote',
-         lang: 'en',
-         format: 'jsonp'
-
-       },
+       url: 'https://random-quote-generator.herokuapp.com/api/quotes/random',
+      
+      
        success: function(response) {
-         quote = response.quoteText;
-         author = response.quoteAuthor;
+         quote = response.quote;
+         author = response.author;
          
          $('#quote').text(quote);
          if (author) {
