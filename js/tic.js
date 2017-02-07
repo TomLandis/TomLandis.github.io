@@ -113,10 +113,10 @@ $(document).ready(function() {
     $('#playa').fadeOut();
         $("#game").fadeOut();
        
-  }, 1000);
+  }, 2000);
         setTimeout(function(){ 
          $("#loser").fadeIn();
-        }, 2000);
+        }, 3500);
         return;
       } else if (compy.includes(one) && compy.includes(three) && !enemey.includes(two)) {
         x = two;
