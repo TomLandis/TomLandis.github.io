@@ -113,7 +113,7 @@ $(document).ready(function() {
     $('#playa').fadeOut();
         $("#game").fadeOut();
        
-  }, 2000);
+  }, 1000);
         setTimeout(function(){ 
          $("#loser").fadeIn();
         }, 2000);
