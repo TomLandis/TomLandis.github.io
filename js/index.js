@@ -93,7 +93,7 @@ $( "#rqg" ).click(function() {
   window.open("rqg.html");
 });
 $( "#wiki" ).click(function() {
-  window.open("wiki.html");
+  window.open("wv.html");
 });
 $( "#twitch" ).click(function() {
   window.open("twitch.html");
@@ -104,3 +104,9 @@ $( "#simon" ).click(function() {
 $( "#timer" ).click(function() {
   window.open("timer.html");
 });
+
+$( "#fcc" ).click(function() {
+  window.open("https://www.freecodecamp.com/tomlandis");
+});
+
+
