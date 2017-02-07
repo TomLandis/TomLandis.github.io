@@ -1,0 +1,49 @@
+.nowrap {
+  white-space: nowrap;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+#weatherPic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+ 
+}
+.sassy {
+  font-family: Indie Flower;
+  text-align: center;
+  
+ 
+}
+
+
+.box {
+  padding: 100px;
+  marins: auto;
+}
+#author {
+  font-family: Indie Flower;
+  text-align: center;
+  font-size: 160%;
+}
+
+.quote {
+  font-family: Indie Flower;
+  text-align: center;
+  font-size: 200%;
+}
+h2 {
+  font-family: Indie Flower;
+  font-size: 300%;
+   text-align: center;
+}
+
+.center {
+ 
+  padding: 60px
+  
+}
