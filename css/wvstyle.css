@@ -1,0 +1,66 @@
+#boxed {
+  
+ max-width: 80%;
+  font-size: 1em;
+border: solid green 1px;
+  background: beige;
+  margin:auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 5vw;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 50px;
+  
+}
+
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+    margin-right: auto }
+}
+
+
+#results0 {
+  display: none;
+}
+#results1 {
+  display: none;
+}
+#results2 {
+  display: none;
+}
+#results3 {
+  display: none;
+}
+#results4 {
+  display: none;
+}
+#results5 {
+  display: none;
+}
+#results6 {
+  display: none;
+}
+#results7 {
+  display: none;
+}
+#results8 {
+  display: none;
+}
+#results9 {
+  display: none;
+}
+
