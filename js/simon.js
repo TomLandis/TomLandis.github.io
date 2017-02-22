@@ -63,39 +63,39 @@ $(document).ready(function() {
     if (seq[i] === "green" && off > 0) {
       setTimeout(function() {
         $('#green').click();
-      }, 700);
+      }, 400);
 
       i++;
       setTimeout(function() {
         simon();
-      }, 2000);
+      }, 1000);
     } else if (seq[i] === "grey" && off > 0) {
       setTimeout(function() {
         $('#grey').click();
-      }, 700);
+      }, 400);
 
       i++;
       setTimeout(function() {
         simon();
-      }, 2000);
+      }, 1000);
     } else if (seq[i] === "brown" && off > 0) {
       setTimeout(function() {
         $('#brown').click();
-      }, 700);
+      }, 400);
 
       i++;
       setTimeout(function() {
         simon();
-      }, 2000);
+      }, 1000);
     } else if (seq[i] === "blue" && off > 0) {
       setTimeout(function() {
         $('#blue').click();
-      }, 700);
+      }, 400);
 
       i++;
       setTimeout(function() {
         simon();
-      }, 2000);
+      }, 1000);
     } else {
 
     }
@@ -151,7 +151,7 @@ $(document).ready(function() {
       i = 0;
       setTimeout(function() {
         simon();
-      }, 2000);
+      }, 1000);
 
     } else if (seq[o] === mySeq[o]) {
       o++;
@@ -200,7 +200,7 @@ $(document).ready(function() {
     $('#green').css('opacity', '.7');
     setTimeout(function() {
       $('#green').css('opacity', '1');
-    }, 700);
+    }, 400);
 
   });
   $('#grey').on('click', function(event) {
@@ -208,7 +208,7 @@ $(document).ready(function() {
     $('#grey').css('opacity', '.7');
     setTimeout(function() {
       $('#grey').css('opacity', '1');
-    }, 700);
+    }, 400);
 
   });
   $('#brown').on('click', function(event) {
@@ -216,7 +216,7 @@ $(document).ready(function() {
     $('#brown').css('opacity', '.7');
     setTimeout(function() {
       $('#brown').css('opacity', '1');
-    }, 700);
+    }, 400);
 
   });
   $('#blue').on('click', function(event) {
@@ -224,7 +224,7 @@ $(document).ready(function() {
     $('#blue').css('opacity', '.7');
     setTimeout(function() {
       $('#blue').css('opacity', '1');
-    }, 700);
+    }, 400);
 
   });
 
