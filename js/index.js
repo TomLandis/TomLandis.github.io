@@ -109,4 +109,6 @@ $( "#fcc" ).click(function() {
   window.open("https://www.freecodecamp.com/tomlandis");
 });
 
-
+$( "#lb" ).click(function() {
+  window.open("lb.html");
+});
