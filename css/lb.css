@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+
+}
+
+
+.tiny {
+  width: 70px;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 7px double #0a3d00;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: #005b09;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+h1 {
+
+
+  font-size: 20px;
+font-family: 'Inconsolata', monospace;
+
+}
+.camper{
+  font-family: 'Inconsolata', monospace;
+  padding: 3px;
+border-radius: 64px 64px 64px 64px;
+-moz-border-radius: 64px 64px 64px 64px;
+-webkit-border-radius: 64px 64px 64px 64px;
+border: 1px dashed #0a4a00;
+
+}
+
+
+html, body {
+    width: 100%;
+  background-color: #bfe0bc;
+}
+table {
+    margin: 0 auto;
+  width:500px;
+}
+
+
+.gHov:hover {
+  color: red;
+ 
+}
+.spaced {
+  padding-right:15px;
+}
+.spaced2 {
+  padding-left:15px;
+}
+#credit {
+  text-align:center;
+  font-size: 11px;
+}
