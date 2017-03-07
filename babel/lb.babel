@@ -1,0 +1,91 @@
+//works.  Things to fix: the states 'alltime and allTime' are too similar, i need to rename one.  The css needs lots of love.  The proper version of this app was built by me using the 'create react app starter'  But i had some problems porting it over here on codepen so i decided to rewrite the app from scratch  Good practice
+
+
+class Leaders extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {allTime:false};
+    this._now = this._now.bind(this);
+  this._allTimeBest = this._allTimeBest.bind(this);
+  }
+  
+  //two calls to the apis with both adding their data to state
+  componentWillMount() {
+    var that = this;
+
+    $.getJSON("https://fcctop100.herokuapp.com/api/fccusers/top/recent", function(data) {
+      that.setState({
+        recent: data
+      });
+
+    });
+    $.getJSON("https://fcctop100.herokuapp.com/api/fccusers/top/alltime", function(data) {
+      that.setState({
+        alltime: data
+      });
+
+    });
+  }
+  //use state to regulate which list is visible.
+ _allTimeBest() {
+
+  this.setState({
+    allTime: true
+  });
+ 
+}
+_now() {
+   
+  this.setState({
+    allTime: false
+  });
+ 
+
+}
+  
+  render() {
+   
+    var username = _.map((this.state.allTime) ? this.state.alltime : this.state.recent, (people, index) => {
+  var indi = index + 1;
+      return(<tr className="camper">
+      <td className="spaced2">{indi}</td><td><img className="tiny" src={people.img} alt="pic" /></td><td className="spaced2"><a target="_blank" href={"https://www.freecodecamp.com/" + people.username} >{people.username}</a></td><td> {people.recent}</td><td className="spaced2">{people.alltime}</td> </tr>
+      );
+        });
+    return (
+      <div class="table-responsive">  
+        <h2>Camper Leaderboard</h2>
+  <table class="table">
+     
+    <thead>
+      <tr>
+        <th>#</th>
+        <th></th>
+        <th>camper</th>
+        <th className="gHov spaced" onClick={this._now}>recent  </th>
+        <th className="gHov spaced2" onClick={this._allTimeBest}>  alltime</th>
+      </tr>
+    </thead>
+    <tbody className="centered">
+      
+        {username}
+     
+    </tbody>
+  </table>
+        <p className="camper" id="credit">This App was built in React by <a target="_blank" href="https://github.com/TomLandis">Tom Landis</a></p>
+  </div>
+
+      
+     
+        
+    
+    );
+
+}
+}
+ReactDOM.render(
+  <Leaders />,
+  document.getElementById('Leaders')
+);
+
+
+
