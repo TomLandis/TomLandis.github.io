@@ -54,6 +54,7 @@ table {
 
 .gHov:hover {
   color: red;
+  cursor: pointer;
  
 }
 .spaced {
