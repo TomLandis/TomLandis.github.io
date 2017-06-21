@@ -1,11 +1,12 @@
 body {
   text-align:center;
   background-color:#9fc2fc;
+  font-family: 'Frijole', cursive;
 }
 #main{
  
   
 }
 .break {
-  visibility:hidden;
+  display: none;
 }
